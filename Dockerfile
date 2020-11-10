@@ -1,7 +1,7 @@
 FROM node:14-alpine
 
 LABEL Maintainers="Damien DUPORTAL<damien.duportal@gmail.com>, Julien LEVESY<jlevesy@gmail.com>"
-
+# commento da condividere
 # Install Global dependencies and gulp 4.x globally
 RUN apk add --no-cache \
       curl \
